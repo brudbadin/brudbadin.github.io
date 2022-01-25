@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.brudbadin" name="Brudbadins Repository" version="1.0" provider-name="brudbadin">
+    <extension point="xbmc.addon.repository" name="Brudbadins Repo">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/brudbadin/repository.brudbadin/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/brudbadin/repository.brudbadin/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/brudbadin/repository.brudbadin/master/repo/zips/</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/nixgates/nixgates/master/packages/matrix/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/nixgates/nixgates/master/packages/matrix/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/nixgates/nixgates/master/packages/matrix/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Brudbadins Repository</summary>
+        <description>Brudbadins Kodi Repository. For personal use only.</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>

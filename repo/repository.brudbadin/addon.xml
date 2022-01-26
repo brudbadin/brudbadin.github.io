@@ -6,11 +6,6 @@
             <checksum>https://raw.githubusercontent.com/brudbadin/repository.brudbadin/master/repo/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/brudbadin/repository.brudbadin/master/repo/zips/</datadir>
         </dir>
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/nixgates/nixgates/master/packages/matrix/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/nixgates/nixgates/master/packages/matrix/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/nixgates/nixgates/master/packages/matrix/</datadir>
-        </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Brudbadins Repository</summary>
